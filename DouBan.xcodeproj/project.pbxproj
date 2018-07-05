@@ -15,6 +15,9 @@
 		04866F9420E528DC00519A29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04866F9320E528DC00519A29 /* main.m */; };
 		04866F9E20E528DC00519A29 /* DouBanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04866F9D20E528DC00519A29 /* DouBanTests.m */; };
 		04866FA920E528DC00519A29 /* DouBanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04866FA820E528DC00519A29 /* DouBanUITests.m */; };
+		04866FB920E7E26D00519A29 /* SonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04866FB820E7E26D00519A29 /* SonTableViewCell.m */; };
+		04D5A76F20EA69440051E666 /* HeadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D5A76E20EA69440051E666 /* HeadTableViewCell.m */; };
+		F67AEA4DA66EE21B18F05534 /* libPods-DouBan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C1C5D22C1D85F05CA5A543 /* libPods-DouBan.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,13 @@
 		04866FA420E528DC00519A29 /* DouBanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouBanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04866FA820E528DC00519A29 /* DouBanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DouBanUITests.m; sourceTree = "<group>"; };
 		04866FAA20E528DC00519A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04866FB720E7E26D00519A29 /* SonTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SonTableViewCell.h; sourceTree = "<group>"; };
+		04866FB820E7E26D00519A29 /* SonTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SonTableViewCell.m; sourceTree = "<group>"; };
+		04D5A76D20EA69440051E666 /* HeadTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeadTableViewCell.h; sourceTree = "<group>"; };
+		04D5A76E20EA69440051E666 /* HeadTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadTableViewCell.m; sourceTree = "<group>"; };
+		09B075CFC2C8A228A0D80475 /* Pods-DouBan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouBan.release.xcconfig"; path = "Pods/Target Support Files/Pods-DouBan/Pods-DouBan.release.xcconfig"; sourceTree = "<group>"; };
+		5F95F65FD60FA230EF748625 /* Pods-DouBan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouBan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DouBan/Pods-DouBan.debug.xcconfig"; sourceTree = "<group>"; };
+		F8C1C5D22C1D85F05CA5A543 /* libPods-DouBan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DouBan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F67AEA4DA66EE21B18F05534 /* libPods-DouBan.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +96,8 @@
 				04866F9C20E528DC00519A29 /* DouBanTests */,
 				04866FA720E528DC00519A29 /* DouBanUITests */,
 				04866F8220E528DA00519A29 /* Products */,
+				577C55E84F6FB4E730C5B122 /* Pods */,
+				79AB8EF86E2D619CD391D5AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +118,10 @@
 				04866F8520E528DA00519A29 /* AppDelegate.m */,
 				04866F8720E528DA00519A29 /* ViewController.h */,
 				04866F8820E528DA00519A29 /* ViewController.m */,
+				04866FB720E7E26D00519A29 /* SonTableViewCell.h */,
+				04866FB820E7E26D00519A29 /* SonTableViewCell.m */,
+				04D5A76D20EA69440051E666 /* HeadTableViewCell.h */,
+				04D5A76E20EA69440051E666 /* HeadTableViewCell.m */,
 				04866F8A20E528DA00519A29 /* Main.storyboard */,
 				04866F8D20E528DC00519A29 /* Assets.xcassets */,
 				04866F8F20E528DC00519A29 /* LaunchScreen.storyboard */,
@@ -132,6 +149,23 @@
 			path = DouBanUITests;
 			sourceTree = "<group>";
 		};
+		577C55E84F6FB4E730C5B122 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F95F65FD60FA230EF748625 /* Pods-DouBan.debug.xcconfig */,
+				09B075CFC2C8A228A0D80475 /* Pods-DouBan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79AB8EF86E2D619CD391D5AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8C1C5D22C1D85F05CA5A543 /* libPods-DouBan.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04866FAD20E528DC00519A29 /* Build configuration list for PBXNativeTarget "DouBan" */;
 			buildPhases = (
+				3B5C4EC84695F5895249C8C5 /* [CP] Check Pods Manifest.lock */,
 				04866F7D20E528DA00519A29 /* Sources */,
 				04866F7E20E528DA00519A29 /* Frameworks */,
 				04866F7F20E528DA00519A29 /* Resources */,
+				E930625910CA61231C0A5951 /* [CP] Embed Pods Frameworks */,
+				6D097C29602EABE95A2EDD9B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,11 +294,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B5C4EC84695F5895249C8C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DouBan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D097C29602EABE95A2EDD9B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DouBan/Pods-DouBan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E930625910CA61231C0A5951 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DouBan/Pods-DouBan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04866F7D20E528DA00519A29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D5A76F20EA69440051E666 /* HeadTableViewCell.m in Sources */,
+				04866FB920E7E26D00519A29 /* SonTableViewCell.m in Sources */,
 				04866F8920E528DA00519A29 /* ViewController.m in Sources */,
 				04866F9420E528DC00519A29 /* main.m in Sources */,
 				04866F8620E528DA00519A29 /* AppDelegate.m in Sources */,
@@ -431,11 +521,13 @@
 		};
 		04866FAE20E528DC00519A29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F95F65FD60FA230EF748625 /* Pods-DouBan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6BYVDW4L47;
 				INFOPLIST_FILE = DouBan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +540,13 @@
 		};
 		04866FAF20E528DC00519A29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09B075CFC2C8A228A0D80475 /* Pods-DouBan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6BYVDW4L47;
 				INFOPLIST_FILE = DouBan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
